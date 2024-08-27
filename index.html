@@ -29,23 +29,25 @@
 <body>
     <header class="max-w-screen-2xl mx-auto px-16 lg:px-20">
         <!-- navbar -->
-        <nav class="flex justify-around mt-5">
+        <nav class="flex justify-between lg:justify-around mt-5 ">
             <div class="">
                 <i class="fa-solid fa-arrow-right rounded-full bg-[#ABEF5F] -rotate-45 p-1"></i>
                 <h3 class="text-[#212121] text-xl font-bold inline"></i>Rinterio</h3>
             </div>
-            <div class="menu text-[#737373]">
+            <div class="menu text-[#737373] hidden lg:flex">
                 <a class="text-black font-medium mr-4" href="">Home</a>
                 <a class="mr-4" href="">Service</a>
                 <a class="mr-4" href="">Portfolio</a>
                 <a class="mr-4" href="">Blogs</a>
                 <a href="">Contact Us</a>
             </div>
-            <div class="action">
-                <i class="fa-solid fa-magnifying-glass text-[#737373] rounded-full p-1 border-2 mr-2"></i>
-                <i class="fa-solid fa-cart-shopping text-[#737373] rounded-full p-1 border-2 mr-2"></i>
-                <button class="bg-[#ABEF5F] rounded-3xl p-2">Book Consult<i class="fa-solid fa-arrow-right rounded-full bg-[#1C1C1C] -rotate-45 p-1 ml-2 text-white"></i></button>
+            <div class="action hidden lg:flex">
+                <i class="fa-solid fa-magnifying-glass text-[#737373] rounded-full my-auto p-2 border-2 mr-2"></i>
+                <i class="fa-solid fa-cart-shopping text-[#737373] rounded-full my-auto p-2 border-2 mr-2"></i>
+                <button class="bg-[#ABEF5F] rounded-3xl p-2">Book Consult<i class="fa-solid fa-arrow-right rounded-full  bg-[#1C1C1C] -rotate-45 p-1 ml-2 text-white"></i></button>
+                
             </div>
+            <div><i class="fa-solid fa-bars border-2 rounded-full p-3 bg-white text-[#737373] lg:hidden"></i></div>
         </nav>
 
         <!-- banner items -->
@@ -132,8 +134,55 @@
          </div>
          </div>
 
+         <!-- challange part 1 -->
 
-         <!-- challenge part -->
+         
+            <div class="max-w-screen-2xl py-9  mx-auto 
+         text-center px-16 lg:px-20 py-16 content-center">
+
+
+         <button class="rounded-full bg-[#acef5f2c] mx-auto p-2 px-5"> <i class="fa-solid fa-arrow-right p-1  mr-2 "></i>Explore our Latest works?</button>
+         <h1 class="text-3xl text-[#212121] font-bold max-w-max mx-auto mb-2 lg:text-5xl  my-4 max-w-5xl  ">Our Latest Portfolio</h1>
+            <p class="mx-10 mb-2 text-[#494949] font-medium my-5 lg:max-w-2xl mx-auto"> We are working from  2016.We have been work with many client from many country .And or design is always came to their first choice.Here some of our Portfolio.</p>
+
+
+            <div class="lg:grid grid-cols-5 gap-4 p-10">
+            <!-- 1st grid -->
+            <div class="col-span-3  border my-auto rounded-xl p-6 py-10"> 
+                <div class="lg:grid grid-cols-3 gap-4 ">
+                    <div class="col-span-1">
+                        <img class="rounded-lg" src="./assets/img1.png" alt=""></div>
+                    <div class="text-left col-span-2">
+                        <h3 class="font-bold text-2xl text-[#494949]">Commercial</h3>
+                        <p class="text-[#737373] font-medium my-2">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                        <button class="bg-white 400 text-[#212121]
+                        font-bold text-xl rounded-3xl  ">View Details<i class="fa-solid fa-arrow-right rounded-full bg-[#ABEF5F] -rotate-45 ml-2 p-1"></i></button>
+                    
+                </div>
+                </div>
+
+        </div>
+        <div class=" border rounded-xl p-6 my-auto lg:max-w-96 col-span-2"><img class="rounded-lg" src="./assets/img2.png" alt=""></div>
+
+        <div class="border my-auto rounded-xl p-6 col-span-1">
+            <img src="./assets/img3.png" alt=""></div>
+
+        <!-- 2nd grid -->
+         <div class="lg:col-span-3">
+            <div><img src="./assets/img4.png" alt=""></div>
+            <div  class="text-left">
+                <h3>Commercial</h3>
+                <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                <button class="bg-white 400  rounded-3xl p-2">View Details<i class="fa-solid fa-arrow-right rounded-full bg-[#ABEF5F] -rotate-45 ml-2 p-1"></i></button>
+            </div>
+         </div>
+
+         <div><img src="./assets/img5.png" alt=""></div>
+        </div>
+
+         </div>
+
+         <!-- challenge part 2 -->
          <div class="max-w-screen-2xl py-9  mx-auto bg-gray-200 
          text-center px-16 lg:px-20 py-16 content-center">
 
@@ -148,12 +197,12 @@
                     <h3 class="font-bold text-2xl text-[#212121]">Perfect Service</h3>
                     <p class="font-medium text-[#737373]">We offer perfect service based on your requirement</p>
                 </div>
-                <div class="mb-4 p-4 bg-white rounded-lg shadow-lg">
+                <div class="mb-4 my-8 p-4 bg-white rounded-lg shadow-lg">
                     <img class="mx-auto" src="./assets/2 (3).jpg" alt="">
                     <h3 class="font-bold text-2xl text-[#212121]">24/7 Support</h3>
                     <p class="font-medium text-[#737373] ">We offer perfect service based on your requirement.</p>
                 </div>
-                <div class="mb-4 p-4  bg-white rounded-lg shadow-lg">
+                <div class="mb-4 my-8 p-4  bg-white rounded-lg shadow-lg">
                     <img class="mx-auto" src="./assets/2 (2).jpg" alt="">
                     <h3 class="font-bold text-2xl text-[#212121]">Best Deals</h3>
                     <p class="font-medium text-[#737373]">We offer perfect service based on your requirement</p>
@@ -172,14 +221,14 @@
                 <p class="text-base text-[#494949] text-center lg: pb-4 max-w-2xl mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
             <!-- form -->
-             <div class="grid grid-cols-2 gap-4">
-                <div class=""><input placeholder="First Name*" type="text"></div>
-                <div><input placeholder="Last Name*" type="text"></div>
-                <div><input placeholder="Phone Number*" type="number"></div>
-                <div><input placeholder="Email Address*" type="email"></div>
-                <div class="col-span-2"><input placeholder="Write your message here" type="text"></div>
+             <div class="lg:grid grid-cols-2 gap-4 lg:mx-40">
+                <div class=""><input class="w-full p-5 rounded-full mb-6"  placeholder="First Name*" type="text"></div>
+                <div><input class="w-full mb-6 p-5 rounded-full" placeholder="Last Name*" type="text"></div>
+                <div><input class="w-full mb-6 p-5 rounded-full" placeholder="Phone Number*" type="number"></div>
+                <div><input class="w-full mb-6 p-5 rounded-full" placeholder="Email Address*" type="email"></div>
+                <div class="col-span-2"><input class="w-full mb-6 p-5 pb-44 rounded-xl" placeholder="Write your message here" type="text"></div>
              </div>
-             <button class="bg-[#ABEF5F] font-bold rounded-full mt-5 w-full p-3">Send Mail<i class="fa-solid fa-arrow-right rounded-full bg-[#1C1C1C] -rotate-45 p-2 ml-2 text-white"></i></button>
+             <button class="bg-[#ABEF5F] font-bold rounded-full  mt-5 w-full p-3 ">Send Mail<i class="fa-solid fa-arrow-right rounded-full bg-[#1C1C1C] -rotate-45 p-2 ml-2 text-white"></i></button>
           </div>
 
     </main>
